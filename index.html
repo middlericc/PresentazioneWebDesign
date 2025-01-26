@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Building - Albertina.Academy</title>
+    <link rel="icon" type="image/x-icon" href="/PresentazioneWebDesign/assets/favicon-Cuk356UZ.ico">
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap" rel="stylesheet">
+  <script type="module" crossorigin src="/PresentazioneWebDesign/assets/index-CkdZoOWu.js"></script>
+  <link rel="stylesheet" crossorigin href="/PresentazioneWebDesign/assets/index-DT2pSV17.css">
+</head>
+<body>
+
+    <div id="Template" style="display: none;"> <!-- TEMPLATES -->
+        
+
+        <div id="windowTemplate"> <!-- WINDOW TEMPLATE -->
+            <div class="window draggable">
+              <div class="windowFrame">
+                    <div></div>
+                    <p class="programTitle"></p> <!-- Questo elemento deve esistere -->
+                    <div class="uiIcons">
+                        <div class="uiIcon"></div>
+                    </div>
+              </div>
+              <div class="windowContent"></div> <!-- Questo elemento deve esistere -->
+            </div>
+        </div>
+
+
+    </div>
+
+    <div class="overlay">
+        <div class="roundContainer">
+            <div class="round">
+                <div class="header">
+                    <div role="list" class="navMenu">
+                        <li> <a href="#Intro" class="navLink">Intro</a></li>
+                        <li> <a href="#Flow" class="navLink">Flow</a></li>
+                        <li> <a href="#Switch" class="navLink">Switch</a></li>
+                    </div>
+                    <h1 class="programTitle">Building - Albertina.Academy</h1>
+                    <div class="uiIcons">
+                        <div class="uiIcon"></div>
+                        <div class="uiIcon"></div>
+                        <div class="uiIcon"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="contentContainer">
+        <div class="wideLimit">
+            <div class="landing">
+
+                <div id="modelContainer"></div>
+
+                <div class="subWindow" data-title="AVVISO!!!" data-width="auto" data-height="auto" data-top="180px" data-left="670px">
+                    <h1 class="headerTitle">Un nuovo look per<br>l'Accademia Albertina!!</h>
+                </div>
+
+                <div class="subWindow" data-title=":0" data-width="350px" data-height="auto" data-top="370px" data-left="840px">
+                    <p >Albertina.Academy aggiorna la sua controparte digitale. In questa pagina, ho raccolto il mio contributo al progetto di rinnovamento.</p>
+                </div>
+
+                <div class="iconGrid">
+                    <div class="iconGridItem"><div class="dragIcon draggable allDrag"> <img class="dragIconImg" src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20height='24px'%20viewBox='0%20-960%20960%20960'%20width='24px'%20fill='%231b1b1b'%3e%3cpath%20d='M160-160q-33%200-56.5-23.5T80-240v-480q0-33%2023.5-56.5T160-800h240l80%2080h320q33%200%2056.5%2023.5T880-640H447l-80-80H160v480l96-320h684L837-217q-8%2026-29.5%2041.5T760-160H160Zm84-80h516l72-240H316l-72%20240Zm0%200%2072-240-72%20240Zm-84-400v-80%2080Z'/%3e%3c/svg%3e"> <p class="dragIconText">DOCUMENTI</p> </div></div>
+                    <div class="iconGridItem"><div class="dragIcon draggable allDrag"> <img class="dragIconImg" src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20height='24px'%20viewBox='0%20-960%20960%20960'%20width='24px'%20fill='%231b1b1b'%3e%3cpath%20d='M480-80q-82%200-155-31.5t-127.5-86Q143-252%20111.5-325T80-480q0-83%2032.5-156t88-127Q256-817%20330-848.5T488-880q80%200%20151%2027.5t124.5%2076q53.5%2048.5%2085%20115T880-518q0%20115-70%20176.5T640-280h-74q-9%200-12.5%205t-3.5%2011q0%2012%2015%2034.5t15%2051.5q0%2050-27.5%2074T480-80Zm0-400Zm-220%2040q26%200%2043-17t17-43q0-26-17-43t-43-17q-26%200-43%2017t-17%2043q0%2026%2017%2043t43%2017Zm120-160q26%200%2043-17t17-43q0-26-17-43t-43-17q-26%200-43%2017t-17%2043q0%2026%2017%2043t43%2017Zm200%200q26%200%2043-17t17-43q0-26-17-43t-43-17q-26%200-43%2017t-17%2043q0%2026%2017%2043t43%2017Zm120%20160q26%200%2043-17t17-43q0-26-17-43t-43-17q-26%200-43%2017t-17%2043q0%2026%2017%2043t43%2017ZM480-160q9%200%2014.5-5t5.5-13q0-14-15-33t-15-57q0-42%2029-67t71-25h70q66%200%20113-38.5T800-518q0-121-92.5-201.5T488-800q-136%200-232%2093t-96%20227q0%20133%2093.5%20226.5T480-160Z'/%3e%3c/svg%3e"> <p class="dragIconText">PAINT</p> </div></div>
+                    <div class="iconGridItem"><div class="dragIcon draggable allDrag"> <img class="dragIconImg" src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20height='48px'%20viewBox='0%20-960%20960%20960'%20width='48px'%20fill='%231b1b1b'%3e%3cpath%20d='M334-120v-60h86v-100H140q-24%200-42-18t-18-42v-440q0-24%2018-42t42-18h680q24%200%2042%2018t18%2042v440q0%2024-18%2042t-42%2018H540v100h86v60H334ZM140-340h680v-440H140v440Zm0%200v-440%20440Z'/%3e%3c/svg%3e"> <p class="dragIconText">COMPUTER</p> </div></div>
+                    <div class="iconGridItem"><div class="dragIcon draggable allDrag"> <img class="dragIconImg" src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20height='24px'%20viewBox='0%20-960%20960%20960'%20width='24px'%20fill='%231b1b1b'%3e%3cpath%20d='M320-240h320v-80H320v80Zm0-160h320v-80H320v80ZM240-80q-33%200-56.5-23.5T160-160v-640q0-33%2023.5-56.5T240-880h320l240%20240v480q0%2033-23.5%2056.5T720-80H240Zm280-520v-200H240v640h480v-440H520ZM240-800v200-200%20640-640Z'/%3e%3c/svg%3e"> <p class="dragIconText">Finito.docx</p> </div></div>
+                    <div class="iconGridItem"></div>
+                    <div class="iconGridItem"><div class="dragIcon draggable allDrag"> <img class="dragIconImg" src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20height='48px'%20viewBox='0%20-960%20960%20960'%20width='48px'%20fill='%231b1b1b'%3e%3cpath%20d='M838-79%20710-207v103h-60v-206h206v60H752l128%20128-42%2043Zm-358-1q-83%200-156-31.5T197-197q-54-54-85.5-126.36T80-478q0-83.49%2031.5-156.93Q143-708.36%20197-762.68%20251-817%20324-848.5%20397-880%20480-880t156%2031.5q73%2031.5%20127%2085.82%2054%2054.32%2085.5%20127.75Q880-561.49%20880-478q0%2023-2%2044.5t-7%2043.5h-63q6-21.67%209-43.33%203-21.67%203-44.47%200-22.8-2.95-45.6-2.94-22.8-8.83-45.6H648q2%2023%204%2045.5t2%2045q0%2022.5-1.25%2044.5T649-390h-61q3-22%204.5-44t1.5-44q0-22.75-1.5-45.5T588-569H373.42q-3.42%2023-4.92%2045.5t-1.5%2045q0%2022.5%201.5%2044.5t4.5%2044h197v60H384q14%2053%2034%20104t62%2086q23%200%2045-2.5t45-7.5v60q-23%205-45%207.5T480-80ZM151.78-390H312q-2.5-22-3.75-44T307-478q0-22.75%201-45.5t3-45.5H151.71q-5.85%2022.8-8.78%2045.6-2.93%2022.8-2.93%2045.6t2.95%2044.47q2.94%2021.66%208.83%2043.33ZM172-629h149.59q11.41-48%2028.91-93.5T395-810q-71%2024-129.5%2069.5T172-629Zm222%20478q-26-41-43.5-86T323-330H172q33%2067%2091%20114t131%2065Zm-10-478h193q-13-54-36-104t-61-89q-38%2040-61%2089.5T384-629Zm255.34%200H788q-35-66-93-112t-129-68q27%2041%2044.5%2086.5t28.84%2093.5Z'/%3e%3c/svg%3e"> <p class="dragIconText">BROWSER</p> </div></div>
+                    <div class="iconGridItem"><div class="dragIcon draggable allDrag"> <img class="dragIconImg" src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20height='24px'%20viewBox='0%20-960%20960%20960'%20width='24px'%20fill='%231b1b1b'%3e%3cpath%20d='M280-120q-33%200-56.5-23.5T200-200v-520h-40v-80h200v-40h240v40h200v80h-40v520q0%2033-23.5%2056.5T680-120H280Zm400-600H280v520h400v-520ZM360-280h80v-360h-80v360Zm160%200h80v-360h-80v360ZM280-720v520-520Z'/%3e%3c/svg%3e"> <p class="dragIconText">CESTINO</p> </div></div>
+                    <div class="iconGridItem"></div>
+                </div>
+            </div>
+
+            <div class="checkerBoard"></div>
+            <div class="checkerBoard2"></div>
+
+            <div class="section" id="Intro">
+                
+                <div class="subWindow" data-title="CHE SUCCEDE??" data-width="auto" data-height="auto" data-top="150px" data-left="960px">
+                    <h2 class="headerTitle">Albertina.Academy 2.0</h2>
+                </div>
+
+                <div class="subWindow" data-title="Corso ADV" data-width="600px" data-height="auto" data-top="80px" data-left="160px">
+                    <p >Il corso di Web Design di quest’anno è stato incentrato sulla costruzione del nuovo sito dell’Accademia Albertina, raccogliendo l’eredità di quanto precedentemente svolto all’interno del workshop gruppo di ricerca.<br><br><br>
+                        Il prof. De Pasquale ha selezionato un gruppo di alunni che avevano precedentemente seguito i corsi di Web Design da lui tenuti, e, in accordo con i cultori della materia Federico Rosa e Angelo Cicchiello, ha ulteriormente suddiviso le responsabilità all’interno del team, creando nell’effettivo due sottogruppi:
+                    </p>
+                </div>
+
+                <div class="subWindow" data-title=">Wordpress o >Figma?" data-width="400px" data-height="auto" data-top="340px" data-left="560px">
+                    <p >Ho scelto di contribuire alla costruzione del sito in WordPress in quanto estraneo alla  piattaforma, ritenendo potesse rappresentare una interessante sfida. <br><br><br>
+                        Al contrario, il lavoro che avrei altrimenti svolto su Figma, seppur di grande importanza, sarebbe stato più affine a quanto già precedentemente svolto nei corsi in accademia precedenti a questo.
+                    </p>
+                </div>
+
+                <div class="subWindow" data-title="Rebooting..." data-width="400px" data-height="auto" data-top="400px" data-left="1040px">
+                    <p >Dato il cambio di dominio e reboot del database, non posso fornire prove visuali del lavoro svolto, ma posso descrivere in modo dettagliato le attività che ho portato avanti e che ritengo abbiano contribuito in maniera più significativa al progetto.<br><br><br>
+                        In ogni caso, pur ricevendo una struttura di base piuttosto definita, abbiamo avuto la possibilità di proporre visioni diverse rispetto a quelle prestabilite.
+                    </p>
+                </div>
+
+                <div class="bigIcon draggable allDrag" style="top: 470px; left: 100px"> <img src="data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='utf-8'?%3e%3c!--%20Uploaded%20to:%20SVG%20Repo,%20www.svgrepo.com,%20Generator:%20SVG%20Repo%20Mixer%20Tools%20--%3e%3csvg%20fill='%231b1b1b'%20width='800px'%20height='800px'%20viewBox='0%200%2024%2024'%20role='img'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M15.852%208.981h-4.588V0h4.588c2.476%200%204.49%202.014%204.49%204.49s-2.014%204.491-4.49%204.491zM12.735%207.51h3.117c1.665%200%203.019-1.355%203.019-3.019s-1.355-3.019-3.019-3.019h-3.117V7.51zm0%201.471H8.148c-2.476%200-4.49-2.014-4.49-4.49S5.672%200%208.148%200h4.588v8.981zm-4.587-7.51c-1.665%200-3.019%201.355-3.019%203.019s1.354%203.02%203.019%203.02h3.117V1.471H8.148zm4.587%2015.019H8.148c-2.476%200-4.49-2.014-4.49-4.49s2.014-4.49%204.49-4.49h4.588v8.98zM8.148%208.981c-1.665%200-3.019%201.355-3.019%203.019s1.355%203.019%203.019%203.019h3.117V8.981H8.148zM8.172%2024c-2.489%200-4.515-2.014-4.515-4.49s2.014-4.49%204.49-4.49h4.588v4.441c0%202.503-2.047%204.539-4.563%204.539zm-.024-7.51a3.023%203.023%200%200%200-3.019%203.019c0%201.665%201.365%203.019%203.044%203.019%201.705%200%203.093-1.376%203.093-3.068v-2.97H8.148zm7.704%200h-.098c-2.476%200-4.49-2.014-4.49-4.49s2.014-4.49%204.49-4.49h.098c2.476%200%204.49%202.014%204.49%204.49s-2.014%204.49-4.49%204.49zm-.097-7.509c-1.665%200-3.019%201.355-3.019%203.019s1.355%203.019%203.019%203.019h.098c1.665%200%203.019-1.355%203.019-3.019s-1.355-3.019-3.019-3.019h-.098z'/%3e%3c/svg%3e"> <p>GRUPPO A: <br> FIGMA</p> </div>
+                <div class="bigIcon draggable allDrag" style="top: 530px; left: 320px"> <img src="data:image/svg+xml,%3csvg%20viewBox='0%200%20122.52%20122.523'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20fill='%231b1b1b'%3e%3cpath%20d='m8.708%2061.26c0%2020.802%2012.089%2038.779%2029.619%2047.298l-25.069-68.686c-2.916%206.536-4.55%2013.769-4.55%2021.388z'/%3e%3cpath%20d='m96.74%2058.608c0-6.495-2.333-10.993-4.334-14.494-2.664-4.329-5.161-7.995-5.161-12.324%200-4.831%203.664-9.328%208.825-9.328.233%200%20.454.029.681.042-9.35-8.566-21.807-13.796-35.489-13.796-18.36%200-34.513%209.42-43.91%2023.688%201.233.037%202.395.063%203.382.063%205.497%200%2014.006-.667%2014.006-.667%202.833-.167%203.167%203.994.337%204.329%200%200-2.847.335-6.015.501l19.138%2056.925%2011.501-34.493-8.188-22.434c-2.83-.166-5.511-.501-5.511-.501-2.832-.166-2.5-4.496.332-4.329%200%200%208.679.667%2013.843.667%205.496%200%2014.006-.667%2014.006-.667%202.835-.167%203.168%203.994.337%204.329%200%200-2.853.335-6.015.501l18.992%2056.494%205.242-17.517c2.272-7.269%204.001-12.49%204.001-16.989z'/%3e%3cpath%20d='m62.184%2065.857-15.768%2045.819c4.708%201.384%209.687%202.141%2014.846%202.141%206.12%200%2011.989-1.058%2017.452-2.979-.141-.225-.269-.464-.374-.724z'/%3e%3cpath%20d='m107.376%2036.046c.226%201.674.354%203.471.354%205.404%200%205.333-.996%2011.328-3.996%2018.824l-16.053%2046.413c15.624-9.111%2026.133-26.038%2026.133-45.426.001-9.137-2.333-17.729-6.438-25.215z'/%3e%3cpath%20d='m61.262%200c-33.779%200-61.262%2027.481-61.262%2061.26%200%2033.783%2027.483%2061.263%2061.262%2061.263%2033.778%200%2061.265-27.48%2061.265-61.263-.001-33.779-27.487-61.26-61.265-61.26zm0%20119.715c-32.23%200-58.453-26.223-58.453-58.455%200-32.23%2026.222-58.451%2058.453-58.451%2032.229%200%2058.45%2026.221%2058.45%2058.451%200%2032.232-26.221%2058.455-58.45%2058.455z'/%3e%3c/g%3e%3c/svg%3e"> <p>GRUPPO B: <br> WORDPRESS</p> </div>
+
+            </div>
+
+            <div class="checkerBoard2"></div>
+            <div class="checkerBoard2"></div>
+
+            <div class="section" id="Flow" style="height: 255vh;">
+                
+                <div class="subWindow" data-title="Download..." data-width="300px" data-height="auto" data-top="150px" data-left="960px">
+                    <h2 class="headerTitle">Website Flow</h2>
+                </div>
+
+                <div class="subWindow" data-title="Problemi di albertina.academy" data-width="600px" data-height="auto" data-top="80px" data-left="120px">
+                    <p>
+                        Uno dei problemi fondamentali del sito attuale è la sua rigidità. Il flow attuale non valuta la possibilità che utenti diversi possano cercare informazioni diverse e, pertanto, crea un’unica struttura che propone una compartimentazione degli argomenti poco profonda.
+                        <br><br><br>
+                        L’idea di poter raggiungere qualsiasi pagina in pochi click potrebbe sembrare vincente, ma può funzionare solo se la funzione del sito in questione è quella di mostrare poche informazioni.
+                        <br><br><br>
+                        Un sito Accademico, al contrario, parla a una grande varietà di personalità (interne o esterne che siano), e un sito dalla struttura orizzontale non può che confondere il visitatore, che si trova sommerso da una grande quantità di ipertesto, la cui funzione, tra l’altro, è poco intuitiva.
+                    </p>
+                </div>
+
+                <div class="subWindow" data-title=">/Img/Screenshot 2024-12-23 173919.png" data-width="800px" data-height="auto" data-top="340px" data-left="560px">
+                    <a href="https://albertina.academy" target="_blank"><img src="/PresentazioneWebDesign/assets/Screenshot%202024-12-23%20173919-DuJ_gKOn.png" alt="attuale albertina.academy" style="border-radius: 10px;"></a>
+                </div>
+
+                <div class="subWindow" data-title="Thinking..." data-width="500px" data-height="auto" data-top="880px" data-left="120px">
+                    <p >
+                        Il primo step svolto è stato quello di ripensare il sito, ridefinendo le i collegamenti e piegando il flow in base al ruolo ricoperto dal visitatore nell’ambiente Accademia, grazie a un sistema di account che permette a segreteria e professori di gestire agilmente corsi e avvisi annessi. 
+                        <br><br><br>
+                        Gli studenti, invece, non devono più incastrarsi tra la miriade di sezioni dedicate: possono consultare le informazioni utili semplicemente accedendo al sito una volta al giorno, grazie a un sistema di notifiche che li informa sulle novità riguardanti iniziative e corsi seguiti.
+                    </p>
+                </div>
+
+                <div class="subWindow" data-title="Mumbling..." data-width="500px" data-height="auto" data-top="1230px" data-left="250px">
+                    <p>
+                        Gli utenti esterni non si imbattono più in informazioni inutili dalla loro prospettiva (specifici avvisi, es.: cambiamenti di orari), ma possono facilmente consultare i piani di studio dell’Accademia, la sua storia e il suo coinvolgimento nel territorio.
+                        <br><br><br>
+                        La mappa è realizzata in Miro, una piattaforma adatta alla pianificazione e creazione di workflow. A sinistra, l’attuale costruzione del sito (utile a comprendere i problemi fondamentali), a destra, invece, il flow riformulato, in modo da essere più compartimentato e specifico in base alle esigenze del visitatore.
+                    </p>
+                </div>
+
+                <div class="subWindow" data-title=">/Img/Mappa Accademia - Organigramma attuale sito Accademia.jpg" data-width="300px" data-height="auto" data-top="870px" data-left="780px">
+                    <a href="https://miro.com/app/board/uXjVKFrqOwA=/" target="_blank"><img src="/PresentazioneWebDesign/assets/Mappa%20Accademia%20-%20Organigramma%20attuale%20sito%20Accademia-BjnD9_kP.jpg" alt="attuale albertina.academy" style="border-radius: 10px;"></a>
+                    <p style="margin-top: 10px;">Mappa attuale Albertina.Academy</p>
+                </div>
+
+                <div class="subWindow" data-title=">/Img/Mappa Accademia - Organigramma rivisto.jpg" data-width="300px" data-height="auto" data-top="890px" data-left="1150px">
+                    <a href="https://miro.com/app/board/uXjVKFrqOwA=/" target="_blank"><img src="/PresentazioneWebDesign/assets/Mappa%20Accademia%20-%20Organigramma%20rivisto-BFdYC_qh.jpg" alt="attuale albertina.academy" style="border-radius: 10px;"></a>
+                    <p style="margin-top: 10px;">Mappa Albertina.Academy riorganizzata</p>
+                </div>
+
+                <div class="subWindow" data-title=">/Img/Mappa Accademia - Gestione Profili.jpg" data-width="300px" data-height="auto" data-top="1520px" data-left="1020px">
+                    <a href="https://miro.com/app/board/uXjVKFrqOwA=/" target="_blank"><img src="/PresentazioneWebDesign/assets/Mappa%20Accademia%20-%20Gestione%20Profili-CFIRPM2w.jpg" alt="attuale albertina.academy" style="border-radius: 10px;"></a>
+                    <p style="margin-top: 10px;">Gestione Utente</p>
+                </div>
+
+                <div class="subWindow" data-title="https://miro.com/app/board/uXjVKFrqOwA=/" data-width="auto" data-height="auto" data-top="1860px" data-left="430px">
+                    <div style="border-radius: 10px;"><iframe width="768" height="432" src="https://miro.com/app/live-embed/uXjVKFrqOwA=/?moveToViewport=-3966,-5114,15360,7560&embedId=853554521733" frameborder="0" scrolling="no" allow="fullscreen; clipboard-read; clipboard-write" allowfullscreen></iframe></div>
+                </div>
+            </div>
+
+            <div class="checkerBoard2"></div>
+            <div class="checkerBoard2"></div>
+
+            <div class="section" id="Switch" style="height: 400vh;">
+                
+                <div class="subWindow" data-title="Wordpress Builder Switch" data-width="450px" data-height="auto" data-top="80px" data-left="930px">
+                    <h2 class="headerTitle">Builder Switch:<br>Da Divi a Breakdance</h2>
+                </div>
+
+                <div class="subWindow" data-title="Corso ADV" data-width="400px" data-height="auto" data-top="80px" data-left="180px">
+                    <p>
+                        Inizialmente, il lavoro in WordPress è stato svolto in DIVI, un Page Builder che semplifica la costruzione di siti senza ricorrere a temi preimpostati.
+                        <br><br><br>
+                        In questa fase, ho ricostruito, seguendo la base di Figma, le sezioni HomePage, Biblioteca, Contatti e Storia.                        
+                    </p>
+                </div>
+
+                <div class="subWindow" data-title=">Wordpress o >Figma?" data-width="400px" data-height="auto" data-top="280px" data-left="500px">
+                    <p>
+                        Nonostante la pazienza dei cultori della materia, Cicchiello e Rosa, disponibili a rimediare ad alcuni errori e ingenuità dovuti all'inesperienza, tuttavia, il builder Divi, ha subito mostrato alcune limitazioni importanti.
+                        <br><br><br>
+                        Divi, difatti, tende a dividere orizzontalmente la pagina in contenitori, al cui interno possono essere create colonne diverse. Questa impostazione, si dimostra subito poco flessibile e rimediabile solo tramite utilizzo di workaround dal successo variabile.                        
+                    </p>
+                </div>
+
+                <div class="subWindow" data-title="Rebooting..." data-width="400px" data-height="auto" data-top="440px" data-left="980px">
+                    <p>
+                        Il builder, inoltre, genera un codice HTML e CSS molto pesante, che può rallentare significativamente i tempi di caricamento del sito e impattare sulla SEO. Carica inoltre molti fogli CSS e JS, anche per pagine che non potrebbero non aver bisogno di tutte le funzionalità. 
+                        <br><br><br>
+                        Questi problemi fondamentali rendono Divi poco adatto alla costruzione di un sito così complesso, e ciò si è reso evidente agli occhi di noi addetti alla costruzione del sito in WordPress già dopo pochissime settimane.
+                    </p>
+                </div>
+
+                <div class="subWindow" data-title="Rebooting..." data-width="700px" data-height="auto" data-top="820px" data-left="220px">
+                    <p>
+                        Dopo un breve colloquio interno, il sottoscritto e la collega Aragno abbiamo comunicato la nostra insoddisfazione al prof. De Pasquale, il quale, col pieno appoggio dei CDM (che già avevano individuato queste problematiche), ha provveduto al primo reboot del progetto, in favore di una riedizione realizzata con un altro editor, presentato dagli stessi CDM: Breakdance.
+                        <br><br><br>
+                        Breakdance, al contrario, di Divi, è un Page Builder che genera un codice HTML, CSS e JS molto più pulito e leggero, ottimizza le risorse e creando pagine decisamente più SEO-friendly.
+                        <br><br><br>
+                        L’interfaccia di cui dispone è il suo vero punto di forza. Unisce la flessibilità di Webflow alla qualità di Wordpress, con un editor chiaro, moderno e modulare, che permette di interagire coi singoli elementi e di accedere rapidamente a tutte le loro proprietà.
+                    </p>
+                </div>
+
+                <div class="subWindow" data-title="Homepage" data-width="400px" data-height="auto" data-top="1400px" data-left="180px">
+                    <a href="https://www.figma.com/design/KTMaXNm5ERhfszgxf4Nuke/Medium-fi-%2F-Design-Asset---www.albertina.academy-(W%2FT)?node-id=0-1&p=f&t=Qwnz6FR1Mf6N1AtF-0" 
+                    target="_blank"><img src="/PresentazioneWebDesign/assets/Homepage-BtoavE4n.png" alt="Homepage" style="border-radius: 10px;"></a>
+                </div>
+
+                <div class="subWindow" data-title="Scuola" data-width="400px" data-height="auto" data-top="1360px" data-left="620px">
+                    <a href="https://www.figma.com/design/KTMaXNm5ERhfszgxf4Nuke/Medium-fi-%2F-Design-Asset---www.albertina.academy-(W%2FT)?node-id=0-1&p=f&t=Qwnz6FR1Mf6N1AtF-0" 
+                    target="_blank"><img src="/PresentazioneWebDesign/assets/landing-page-BSKenNKW.png" alt="Scuola" style="border-radius: 10px;"></a>
+                </div>
+
+                <div class="subWindow" data-title="Pinacoteca" data-width="400px" data-height="auto" data-top="2060px" data-left="1080px">
+                    <a href="https://www.figma.com/design/KTMaXNm5ERhfszgxf4Nuke/Medium-fi-%2F-Design-Asset---www.albertina.academy-(W%2FT)?node-id=0-1&p=f&t=Qwnz6FR1Mf6N1AtF-0" 
+                    target="_blank"><img src="/PresentazioneWebDesign/assets/pinacoteca-BUOODnb6.png" alt="Pinacoteca" style="border-radius: 10px;"></a>
+                </div>
+
+                <div class="subWindow" data-title="Storia" data-width="400px" data-height="auto" data-top="1240px" data-left="1060px">
+                    <a href="https://www.figma.com/design/KTMaXNm5ERhfszgxf4Nuke/Medium-fi-%2F-Design-Asset---www.albertina.academy-(W%2FT)?node-id=0-1&p=f&t=Qwnz6FR1Mf6N1AtF-0" 
+                    target="_blank"><img src="/PresentazioneWebDesign/assets/storia-Celky05B.png" alt="Storia" style="border-radius: 10px;"></a>
+                </div>
+
+                <div class="subWindow" data-title="Biblioteca" data-width="400px" data-height="auto" data-top="2150px" data-left="180px">
+                    <a href="https://www.figma.com/design/KTMaXNm5ERhfszgxf4Nuke/Medium-fi-%2F-Design-Asset---www.albertina.academy-(W%2FT)?node-id=0-1&p=f&t=Qwnz6FR1Mf6N1AtF-0" 
+                    target="_blank"><img src="/PresentazioneWebDesign/assets/biblioteca-CL1miFYp.png" alt="Biblioteca" style="border-radius: 10px;"></a>
+                </div>
+
+                <div class="subWindow" data-title="Contatti" data-width="400px" data-height="auto" data-top="2420px" data-left="620px">
+                    <a href="https://www.figma.com/design/KTMaXNm5ERhfszgxf4Nuke/Medium-fi-%2F-Design-Asset---www.albertina.academy-(W%2FT)?node-id=0-1&p=f&t=Qwnz6FR1Mf6N1AtF-0" 
+                    target="_blank"><img src="/PresentazioneWebDesign/assets/contatti-BUjpQbTe.png" alt="Contatti" style="border-radius: 10px;"></a>
+                </div>
+
+                <div class="bigIcon draggable allDrag" style="display: flex; justify-content: center; width: 300px; top: 470px; left: 100px"> <img src="data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='Layer_2'%20data-name='Layer%202'%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20118.32'%3e%3cdefs%3e%3cstyle%3e%20.cls-1%20{%20fill:%20%231b1b1b;%20stroke-width:%200px;%20}%20%3c/style%3e%3c/defs%3e%3cg%20id='Layer_1-2'%20data-name='Layer%201'%3e%3cg%3e%3cpath%20class='cls-1'%20d='M59.24,0c32.93.07,59.49,26.68,59.12,59.83-.35,32.37-26.76,58.71-59.84,58.49C26.12,118.1-.1,91.43,0,58.52.1,26.29,26.79-.07,59.24,0ZM59.31,7.29C30.84,6.83,7.1,30.66,7.25,59.38c.15,28.08,23.09,51.74,52.03,51.66,28.65-.08,51.81-23.12,51.82-51.89,0-29.07-23.56-52.08-51.78-51.87Z'/%3e%3cpath%20class='cls-1'%20d='M142.57,59.51c0-9.06,0-18.12,0-27.18,0-3.32.58-3.92,3.88-3.88,6.37.08,12.8-.27,19.11.41,10.5,1.14,17.9,6.85,21.63,16.89,2.74,7.36,3.79,14.89,1.65,22.61-2.88,10.42-10.63,19.43-21.28,21.32-2.06.37-4.19.46-6.29.49-5.18.07-10.37.06-15.55.04-2.48-.01-3.13-.68-3.14-3.18-.02-4.62,0-9.23,0-13.85,0-4.56,0-9.12,0-13.68h-.01ZM149.94,59.28h0c0,6.84,0,13.68,0,20.52,0,2.7.66,3.37,3.28,3.38,3.13,0,6.28.16,9.4-.04,6.47-.42,11.85-2.98,15.55-8.55,4.02-6.05,5.06-12.73,4.09-19.78-1.43-10.32-7.89-17.64-18.49-18.93-3.49-.43-7.04-.28-10.57-.34-2.85-.05-3.25.36-3.25,3.24-.01,6.84,0,13.68,0,20.52Z'/%3e%3cpath%20class='cls-1'%20d='M251.95,80.25c1.32-3.19,2.65-6.38,3.97-9.58,5.26-12.79,10.51-25.59,15.78-38.38,1.26-3.05,3.75-4.54,6.53-4.01,2.14.41,2.68,1.54,1.85,3.54-3.28,7.94-6.51,15.9-9.79,23.84-2.56,6.2-5.19,12.38-7.76,18.58-1.81,4.36-3.62,8.72-5.34,13.11-.77,1.96-2.07,2.91-4.15,2.87-6.26-.14-5.42.65-7.9-5.45-4.79-11.76-9.7-23.47-14.55-35.2-2.39-5.79-4.78-11.57-7.15-17.37-1.15-2.82-.6-3.65,2.39-3.76,3.57-.14,4.82.6,6.15,3.9,4.95,12.24,9.86,24.51,14.8,36.75,1.51,3.73,3.08,7.43,4.62,11.15.18,0,.36,0,.53,0Z'/%3e%3cpath%20class='cls-1'%20d='M210.52,59.49c0,9.17,0,18.34,0,27.51,0,2.74-.39,3.1-3.17,3.19-.11,0-.23,0-.34,0-3.73.06-4.14-.33-4.15-4.04,0-17.89,0-35.77,0-53.66,0-.63,0-1.26.07-1.88.15-1.39.87-2.1,2.34-2.18,4.99-.27,5.25-.05,5.25,4.89,0,8.72,0,17.43,0,26.15Z'/%3e%3cpath%20class='cls-1'%20d='M300,59.26c0,8.72,0,17.44,0,26.16,0,.51,0,1.03-.01,1.54-.1,2.73-.54,3.16-3.22,3.24-4.24.12-4.41-.05-4.41-4.32,0-17.95,0-35.9,0-53.85,0-3.32.27-3.58,3.62-3.58.46,0,.91,0,1.37.01,1.94.08,2.49.61,2.62,2.6.05.79.04,1.59.04,2.39,0,8.6,0,17.21,0,25.81Z'/%3e%3cpath%20class='cls-1'%20d='M41.68,59.33c0-9.06,0-18.13,0-27.19,0-3.07.62-3.73,3.71-3.69,6.32.07,12.69-.3,18.95.38,13.35,1.45,21.35,10.61,23.74,22.88,1.12,5.74,1.31,11.42-.3,17.07-3.27,11.46-12.55,21.4-26.17,21.37-5.53-.01-11.05.06-16.58.06-2.68,0-3.33-.68-3.33-3.35,0-9.18,0-18.35,0-27.53h0ZM48.96,59.16c0,7.18-.01,14.37,0,21.55,0,2.16.34,2.46,2.51,2.46,3.48,0,6.97.17,10.43-.06,6.49-.42,11.78-3.09,15.41-8.75,5.06-7.89,5.54-16.21,2.54-24.88-2.84-8.18-8.56-12.88-17.23-13.67-3.62-.33-7.28-.25-10.92-.3-2.44-.04-2.73.27-2.73,2.77-.01,6.96,0,13.91,0,20.87Z'/%3e%3c/g%3e%3c/g%3e%3c/svg%3e"> <p>DIVI <br> BUILDER</p> </div>
+                <div class="bigIcon draggable allDrag" style="display: flex; justify-content: center; width: 450px; top: 970px; left: 1000px"> <img src="/PresentazioneWebDesign/assets/breakdance-BgFTPS9W.svg"> <p>BREAKDANCE <br> BUILDER</p> </div>
+
+            </div>
+
+            <div class="checkerBoard2"></div>
+            <div class="checkerBoard"></div>
+
+            <div class="footer">
+                <div class="subWindow" data-title="Genral_Info" data-width="400px" data-height="auto" data-top="320px" data-left="180px">
+                    <p>
+                        Riccardo Incampo
+                        <br>
+                        <br>
+                        Corso di Web Design <br>
+                        A.A. 2023-2024 <br>
+                        Prof. Gerardo De Pasquale <br>
+                        <br>
+                        <br>
+                        Accademia Albertina di <br>
+                        Belle Arti <br>
+                        Torino 
+                    </p>
+                </div>
+
+
+                <div class="subWindow" data-title="asciiAlbertina" data-width="auto" data-height="auto" data-top="50px" data-left="630px">
+                    <p class="asciiAlbertina">...........................:::-===++*+***++*++===--:............................
+                        .......................:-=+*#++=--===-=*+-====-+++#**+=-::......................
+                        ...................:-+**-=-==**-=-==------====---+*-=--=**+=:...................
+                        ................:=+*=**-=+-+--+=--++--+*+--==-=-*+:++-*-=**=++=:................
+                        .............:-+*===:==--+++:=#*++++===+===++++=**=-+=+-=++=--=*+-:.............
+                        ...........:-+===*+-=-=*++=+===-::.....-=....:++*+=+==+**=--=++-+=*=:...........
+                        .........:-***=-+=++--=++##%=..:=+=:...-=...-*%@@@@#=-=++=-=*=:--+***=:.........
+                        ........:+*-+=---=--**+:-@@@:.=@@@@@...-=..:*#@@@@@@@-..:-+*--==-=-=:**-........
+                        .......=*+==--:**++*%@@=+@@@:-+*##%*...-+#:.:*+@@@@@@=.....:=**+=-==*==++:......
+                        .....:++--*-+=:=**###%*:#@@%.=@@@@@:...-=#%*+=#@@@@@@+#+...:::=+--*=-=-+**:.....
+                        ....:*+++-:==-*+:=%@@@+.@@@#.:=%@@#=...-=.:=#@@@@@@@-#%+...:=+::+*--=-:==**-....
+                        ...:**+++==+=+=:.=**=:.:@@@#-=#*=-=======....%@@@@@@:=*-:-=:-+.:--+=+*==+=**-...
+                        ..:++-==+-=****###%%%@@@@@@@@@@@@@@@@@@*=..:*@%@@@@@%:-#-=*=:*-=*=:*#=-+=+-=*:..
+                        .:+*:=+:+=-**@@@@@@@%%%%@@@%###********+==+%*-:+%@@@@%=%:::::*::-:.:*-=+-+=-*+:.
+                        .-*#+--=--*=--:::=+*+-.=@@@+..=*%#=-=--=+=+=-::=#@@@@@@#=+===*=---=::+=-=-=***=.
+                        .+*===+**#+:....#@@@@@.+@@@=.:#%#++:.:*#%*..:=+*%@@@@@@%:::::+=:::=:.=#**==+*=*:
+                        :**=--=-=+:....*###%%=.+@@@=:%++#@@-.-=@@#...%@%+*+=%@@%::=-:+=:-=...:*=-=-=--*=
+                        =*:+*-+-++.....=@@@@@-.*@@@=.=*@@@@-..-@@#..:%@@@*=::-%@+=*+=====*=-..=*:*+=*-*+
+                        +*-+=+=-+=.....-*%#+=:.*@@@=:+@@@@@@@##**#*@@@@@@@+-.:%@::-:.==.:-:...-+----=-+*
+                        **+---==+=:::::--::::::+###==*@@@@@@@*#+=#=@@@@@@@#++*#*::::-++-:::::::***---***
+                        ***=--***=:::::::::::::+###=+*@@@@@@@@+#**%@@@@@@@#+#-::=#############++-+:--++*
+                        ++=--:--==.............*@@@=:*@@@@@%#@@**%@%%@@@@@+*@:..-@@@@@@@@@@@@@*+==*-*-+*
+                        =*-+==*-*+.............*@@@=.=*@@**:#@@@@@@%.+*%@**%@:..=@@@@@@@@@@@@@+*-===*-*+
+                        :*--=-=-=+:............+@@@=..-++-.=@#*@@#*@=.:+**@@@***#@@@@@@@@@@@@#*-=-:--+*=
+                        .+=++=-*##+:...........+@@@=...:-+#%=:+@@*:-%#**%@@@@*@##@@@@@@@@@@@@****+-+=+*:
+                        .-***+-=-=+--:::.......=@@@+......:----=+==*##%@@@@@%+***@@@@@@@@@%%**--=--+**=.
+                        .:+*=-*-++:**@@@@@%%%%#%@@@%***********+=+++++=======...:----:::...:*=-+:=*:*+:.
+                        ..:*+:+++--***###%%%@@@@@@@@@@@@@@@@@@@*=.................:::---==-*#+-===-=*:..
+                        ...:**==-=*+=+=:.....::-@@@#---==========***########+...%@@@@@@@@*+=++=+++**-...
+                        ....:**+=--==-*+:......:@@@#...........-+@@@@@@@@@@@+..:@@@@@@@%**-==-=+*+*-....
+                        .....:+**-===*-=+=:.....#@@%...........-+@@@@@@@@@@@-..-@@@@@%**--=+-+=:=*:.....
+                        ......:=*==*+==-***=:...+@@@...........-+@@@@@@@@@@@:..=@@@%*++**-:-+==*+:......
+                        ........-+*---=-==--*+-:=@@@:..........-+@@@@@@@@@@@...*%#**=-===-=+-**-........
+                        .........:=**#*---=+=-=++##%=..........-+@@@@@@@@@@#.:-++==-++==-=*#*=:.........
+                        ...........:=*==-++=--=**++=+=--::.....-+@@@@@%%###++=++*+---=*==+*=:...........
+                        .............:-+*=--===+-==+--**=++++===+**+*+++**+-+++=-=+-===++-:.............
+                        ................:=++=+#=:*-=*:**-=-==--+**:-+=-=++=-*-=+:*#+**=:................
+                        ...................:-+**---=:+*-:-====------===-:**==---**+=::..................
+                        .......................:-=+***+=+-====-+*=:====:=++#*+==::......................
+                        ...........................::--=+++**++***=**++==--::...........................</p>
+                </div>  
+            </div>
+
+        </div>
+        
+    </div>
+
+
+</body>
+</html>
